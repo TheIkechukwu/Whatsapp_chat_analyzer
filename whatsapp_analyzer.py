@@ -203,7 +203,7 @@ if uploaded_file is not None:
         # ---------------------
         # Word Cloud with Stopword Removal (Static Image)
         # ---------------------
-        st.subheader("Word Cloud")
+        st.subheader("Words That Pop Up The Most")
         stop_words = set(stopwords.words('english')).union(STOPWORDS)
         additional_stopwords = {"media", "omitted", "http", "https", "www"}
         stop_words = stop_words.union(additional_stopwords)
@@ -217,7 +217,7 @@ if uploaded_file is not None:
         # ---------------------
         # Interactive Chat Exploration
         # ---------------------
-        st.subheader("Interactive Chat Exploration")
+        st.subheader("A Sneak Peek Into Your Chats")
         unique_dates = sorted(df['date'].unique())
         selected_date = st.selectbox("Select a conversation date", unique_dates)
         chat_subset = df[df['date'] == selected_date].sort_values("timestamp")
