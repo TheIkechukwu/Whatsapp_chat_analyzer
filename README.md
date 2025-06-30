@@ -73,7 +73,7 @@ This sleek, minimalist, and interactive tool helps you **uncover hidden patterns
 
 Want to impress yourself with your own texting habits? 🚀
 
-🔗 **[Live Demo](#)** (Deploy on Streamlit and add link)
+🔗 **[Live Demo](https://whatsappsherlock.streamlit.app/)**
 
 🛠️ **Want to Run It Locally?**
 
